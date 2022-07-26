@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+SC&family=Roboto&display=swap');
+
+
 html {
     height: 100%;
     width: 100%;
@@ -11,10 +14,56 @@ body {
 
 }
 
+a {
+    color: white;
+}
+
 .left-window {
-    background-color: aqua;
+    background-image: url(./images/jeffrey-chai-Rannb20Ufk0-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
     height: auto;
     width: 30%;
+    position: relative;
+
+}
+
+.logo {
+    box-sizing: border-box;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    position :relative;
+    background-color: rgba(0,0,0,0.4);
+    top: 15%;
+    justify-content: center;
+    padding: 10px;
+    user-select: none;
+    width: auto;
+}
+
+.logo img {
+    max-height: 100%;
+    max-width: 100%;
+    min-height: auto;
+    min-width: auto;
+
+}
+
+.logo h1 {
+    font-family: 'Cormorant SC', sans-serif;
+    color:white;
+    font-size: 5vw;
+}
+
+.image-copyright {
+    color:white;
+    font-family: sans-serif;
+    position: absolute;
+    bottom: 0;
+    left: 20%;
+    font-size: 1vw;
 }
 
 .right-window {
