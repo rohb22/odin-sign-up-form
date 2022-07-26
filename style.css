@@ -1,0 +1,38 @@
+html {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+
+}
+
+.left-window {
+    background-color: aqua;
+    height: auto;
+    width: 30%;
+}
+
+.right-window {
+    height: auto;
+    width: 70%;
+}
+
+.right-window-upper {
+    height: 30%;
+    background-color: saddlebrown;
+}
+
+.right-window-middle {
+    height: 40%;
+    background-color: chartreuse;
+}
+
+.right-window-bottom {
+    height: 30%;
+    background-color: violet;
+}
