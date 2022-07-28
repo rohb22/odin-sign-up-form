@@ -146,7 +146,7 @@ legend {
 input {
     width: 60%;
     border-radius: 4px;
-    box-shadow: 5px 4px #e7d17c;
+    box-shadow: 4px -3px #e7d17c;
     
 }
 
@@ -154,4 +154,10 @@ input:focus{
     outline: none;
     box-shadow: 0 0 10px 3px #e7d17c;
     border: none;
+}
+
+.error {
+    padding: 0;
+    margin: 0;
+    color: #522e8a;
 }
