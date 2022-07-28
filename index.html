@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Odin Sign-up Form</title>
     <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
+    <script src="script.js" defer></script>
 </head>
 <body>
     <div class="left-window">
@@ -29,37 +29,43 @@
                 <div class="input-pair">
                     <div class="input-field">
                         <label for="first-name">First Name</label>
-                        <input type="text" id="first-name" name="first-name">
+                        <input type="text" class="inputs names" id="first-name" name="first-name">
+                        <h6 class="error" id="first-name-error"></h6>
                     </div>
                     <div class="input-field">
                         <label for="last-name">Last Name</label>
-                        <input type="text" id="last-name" name="last-name">
+                        <input type="text" class="inputs names" id="last-name" name="last-name">
+                        <h6 class="error" id="last-name-error"></h6>
                     </div>
                 </div>
                 <div class="input-pair">
                     <div class="input-field">
-                        <label for="phone-number">Phone Number</label>
-                        <input type="email" id="email" name="email">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" class="inputs" name="email">
+                        <h6 class="error" id="email-error"></h6>
                     </div>
                     <div class="input-field">
-                        <label for="email">Email</label>
-                        <input type="tel" id="phone-number" name="phone-number">
+                        <label for="phone-number">Phone Number</label>
+                        <input type="tel" id="phone-number" class="inputs" name="phone-number">
+                        <h6 class="error" id="phone-number-error"></h6>
                     </div>
                 </div>
                 <div class="input-pair">
                     <div class="input-field">
                         <label for="password">Password</label>
-                        <input type="password" name="password" id="password">
+                        <input type="password" class="inputs" name="password" id="password">
+                        <h6 class="error" id="password-error"></h6>
                     </div>
                     <div class="input-field">
                         <label for="confirm-password">Confirm Password</label>
-                        <input type="password" name="confirm-password" id="confirm-password">
+                        <input class="inputs" type="password" name="confirm-password" id="confirm-password">
+                        <h6 class="error" id="confirm-password-error"></h6>
                     </div>
                 </div>
             </form>
         </div>
         <div class="right-window-bottom">
-            <button>Sign Me Up Bitch!</button>
+            <button id="submit-button">Sign Me Up Bitch!</button>
             <h4>Already have an account? <span style="color: #9b9b9b; cursor: pointer;">Log in</span></h4>
         </div>
     </div>
